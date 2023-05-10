@@ -1,0 +1,45 @@
+.container {
+  background-color: whitesmoke;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile {
+    background-image: url("background_profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-name {
+    color: #333333;
+    margin-top: 10px;
+  }
+  
+  .profile-job {
+    color: lightslategrey;
+    font-size: 18px;
+  }
+  
+  .profile-location {
+    color: lightslategrey;
+    font-size: 18px;
+  }
+  
